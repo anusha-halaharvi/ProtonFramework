@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="com.protonframework" parallel="tests">
+<parameter name="platform" value="Android"></parameter>	
+	<test name="protonframework">
+		<packages>
+			<package name="com.base" />
+		</packages>
+	</test>
+</suite>
